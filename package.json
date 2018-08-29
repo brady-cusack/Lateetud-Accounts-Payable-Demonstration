@@ -1,0 +1,20 @@
+{
+  "name": "validationapi",
+  "version": "1.0.0",
+  "description": "RESTful API used to detect fraudulent invoices for enterprise AP departments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Brady Cusack @ Lateetud",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.10"
+  }
+}
